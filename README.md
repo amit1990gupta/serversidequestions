@@ -15,3 +15,4 @@ Ans -
 2. Difference between Callable and Runnable.
 3. Difference between CountDownLatch and CyclicBarrier
 4. submit vs execute
+5. Why String has been made immutable in Java?
