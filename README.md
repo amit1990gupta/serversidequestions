@@ -14,3 +14,4 @@ Ans -
 			6. You can provide setter method but setter should create new object and set the value for method and return new object.
 2. Difference between Callable and Runnable.
 3. Difference between CountDownLatch and CyclicBarrier
+4. submit vs execute
