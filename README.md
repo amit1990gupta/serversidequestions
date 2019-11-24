@@ -11,5 +11,6 @@ Ans -
 			3. Make all members private
 			4. No Methods that modify state
 			5. Be extremely careful to limit access to mutable members(remember the field may be final but the object can still be mutable. ie private final Date imStillMutable). You should make defensive copies in these cases.The reasoning behind making the class final is very subtle and often overlooked. If its not final people can freely extend your class, override public or protected behavior, add mutable properties, then supply their subclass as a substitute. By declaring the class final you can ensure this won't happen.
+			6. You can provide setter method but setter should create new object and set the value for method and return new object.
 2. Difference between Callable and Runnable.
 3. Difference between CountDownLatch and CyclicBarrier
